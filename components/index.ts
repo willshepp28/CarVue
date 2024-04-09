@@ -1,4 +1,6 @@
+import Footer from "./Footer";
 import Hero from "./Hero";
+import Navbar from "./Navbar";
 import StyledButton from "./StyledButton";
 
-export { Hero, StyledButton };
+export { Hero, StyledButton, Navbar, Footer };

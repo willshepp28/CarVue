@@ -3,11 +3,16 @@
 import { StyledButtonProps } from "@/types";
 import Image from "next/image";
 
-function StyledButton({ title, layoutStyles, handleClick }: StyledButtonProps) {
+function StyledButton({
+  title,
+  layoutStyles,
+  btnType,
+  handleClick,
+}: StyledButtonProps) {
   return (
     <button
       disabled={false}
-      type={"button"}
+      type={btnType || "button"}
       className={`custom-btn ${layoutStyles}`}
       onClick={handleClick}
     >
