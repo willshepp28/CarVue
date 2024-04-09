@@ -3,7 +3,7 @@
 import { StyledButtonProps } from "@/types";
 import Image from "next/image";
 
-function StyledButton({ title, layoutStyles, handleClick }): StyledButtonProps {
+function StyledButton({ title, layoutStyles, handleClick }: StyledButtonProps) {
   return (
     <button
       disabled={false}
